@@ -1,0 +1,274 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header {}
+
+#header .content {
+    width: 1200px;
+    margin: auto;
+}
+
+#header .top-header {
+    height: 35px;
+    background-color: #36444e;
+    color: #aaaaaa;
+    line-height: 35px;
+    font-size: 12px;
+}
+
+#header .top-header section {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#header .main-header {
+    height: 100px;
+    background-color: #FFFFFF;
+}
+
+#header .main-header .logo {
+    background-image: url("../img/logo.png");
+    width: 158px;
+    height: 30px;
+    margin: 34px 0;
+    float: left;
+}
+
+#header .navbar .navigator {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#header .navbar .sub-menu {
+    display: none;
+    background-color: #36444e;
+    padding: 10px 0;
+    list-style-type: none;
+    z-index: 1;
+    position: absolute;
+}
+
+#header .navbar .sub-menu > li > a {
+    float: left;
+    color: #768088;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 20px;
+}
+
+#header .navbar .sub-menu > li > a:hover {
+    color: #cecece;
+}
+
+#header .navbar .navigator > li {
+    float: left;
+}
+
+#header .navbar .navigator > li > a.nav-link {
+    display: inline-block;
+    padding: 18px 25px;
+    border: 1px solid #dddddd;
+    background-color: #f9f9f9;
+    transition: border-color .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out;
+    text-decoration: none;
+    font-weight: bold;
+    color: #666666;
+}
+
+#header .navbar .navigator > li > a.nav-link:hover {
+    background-color: #FFFFFF;
+    color: #51c5eb;
+}
+
+#main {}
+
+#main .content {
+    width: 1200px;
+    margin: auto;
+}
+
+#main > .content {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#main .header-title {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+.offer-form {
+    background-color: #fbfbfb;
+    border: 1px solid rgba(192,192,192,0.4);
+    padding: 20px 0;
+}
+
+.form-control {
+    border-color: #dddddd;
+    color: #616161;
+    border-radius: 0;
+    background-color: #fbfbfb;
+}
+
+.form-control:focus {
+    border-color: #51c5eb;
+    box-shadow: none;
+}
+
+.one_fourth {
+    position: relative;
+    float: left;
+    margin: 0 2%;
+    width: 21%;
+}
+
+.column {
+    position: relative;
+    min-height: 1px;
+}
+
+.featured_block {
+    padding-top: 0px;
+    padding-bottom: 250px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.featured_block > .featured_block_inner {
+    width: 100%;
+    padding: 40px 15px 15px 15px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.featured_block > .featured_block_inner > .featured_block_text {
+    text-align: center;
+}
+
+.featured_block > .featured_block_inner > .featured_block_text i {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+#professionalism {
+    background-image: url(http://finance-business.cmsmasters.net/wp-content/uploads/2015/03/photodune-9815118-close-up-of-handshake-over-american-flag-l-7.jpg);
+}
+
+#professionalism .featured_block_inner {
+    background-color: #ff5f00;
+}
+
+#ontime {
+    background-image: url(http://finance-business.cmsmasters.net/wp-content/uploads/2015/03/Mockups3.jpg);
+}
+
+#ontime .featured_block_inner {
+    background-color: #ffc31d;
+}
+
+#nostress {
+    background-image: url(http://finance-business.cmsmasters.net/wp-content/uploads/2015/03/how_to_choose_a_wp_theme4.jpg);
+    background-position: bottom right;
+}
+
+#nostress .featured_block_inner {
+    background-color: #b4df56;
+}
+
+#finance {
+    background-image: url(http://finance-business.cmsmasters.net/wp-content/uploads/2015/03/photodune-3314143-market-analysis-2.jpg);
+}
+
+#finance .featured_block_inner {
+    background-color: #51c5eb;
+}
+
+.featured_block .featured_block_inner .featured_block_text h2 {
+    color: #fbfbfb;
+}
+
+.icon_wrap {
+    display: block;
+    text-align: center;
+}
+
+.featured_block .featured_block_inner .featured_block_text div {
+    text-align: inherit;
+    margin-bottom: 20px;
+}
+
+.tabbable > .tab-content > .tab-pane {
+    height: 100%;
+    margin-left: 280px;
+}
+
+.tabbable > .tab-content > .tab-pane.dismantle {
+    background: url("http://www.accountable.ro/wp-content/uploads/radieriRegistrulComertului.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tabbable > .tab-content > .tab-pane.modifyCompany {
+    background: url("http://www.accountable.ro/wp-content/uploads/mentiuni-registrul-com.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tabbable > .tab-content > .tab-pane.startingCompany {
+    background: url("http://www.accountable.ro/wp-content/uploads/inregistrari.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tabbable > .tab-content > .tab-pane.audit {
+    background: url("../img/images/stock-photo-154977213.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tabbable > .tab-content > .tab-pane.payroll {
+    background: url("../img/images/stock-photo-103730803.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tabbable > .tab-content > .tab-pane.hr {
+    background: url("../img/images/stock-photo-144790613.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tabbable > .tab-content > .tab-pane.expert {
+    background: url("../img/images/stock-photo-110150907.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tabbable > .tab-content > .tab-pane.accounting {
+    background: url("../img/images/stock-photo-124710081.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tabbable > .tab-content > .tab-pane > .content-box {
+    padding: 20px ;
+    background-color: rgba(255, 255, 255, .85);
+    width: 40%;
+    color: #545454;
+}
+
+.nav-tabs>li>a {
+    border: none !important;
+}
+
+.tabs-left > .nav-tabs {
+    border: none;
+}
