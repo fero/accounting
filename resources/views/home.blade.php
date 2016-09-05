@@ -30,88 +30,99 @@
 
 
 
+    <div class="content">
+        <p class="main-paragraph">Activitatea noastră principală, contabilitatea, este una dintre cele mai importante funcții ale afacerilor de succes. Este măsurarea resurselor financiare și a informațiilor de cont. Contabilitatea de calitate aduce transparență afacerii și oferă o imagine de ansamblu clară de gestionare a situației financiare într-o societate. În plus, companiile de toate dimensiunile trebuie să înregistreze și să raporteze tranzacțiile de afaceri, ține evidența facturilor și pentru a preveni crearea unor probleme fiscale și a altor autorități locale.</p>
+    </div>
+
+
+
     <div class="offer-form">
         <div class="content">
             <div class="header-title">Cerere rapidă</div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="service-type">Serviciu solicitat</label>
-                        <select title="" name="serviceType[]" id="service-type" multiple class="form-control">
-                            <option value="Contabilitate">Contabilitate</option>
-                            <option>Administrare personal</option>
-                            <option>Salarizare</option>
-                            <option>Audit intern si extern</option>
-                            <option>Expertiza contabila</option>
-                            <option>Altele</option>
-                        </select>
+            <form id="service-request" action="{{ route('service_request') }}">
+                <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="required" for="service-type">Serviciu solicitat</label>
+                            <select title="" name="serviceType[]" id="service-type" multiple class="form-control" required>
+                                <option value="Contabilitate">Contabilitate</option>
+                                <option>Administrare personal</option>
+                                <option>Salarizare</option>
+                                <option>Audit intern si extern</option>
+                                <option>Expertiza contabila</option>
+                                <option>Altele</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="required" for="organisation-type">Forma de organizare</label>
+                            <select title="" id="organisation-type" name="organisationType" class="form-control" required>
+                                <option value="SRL">SRL</option>
+                                <option value="PFA">PFA</option>
+                                <option value="ONG">ONG</option>
+                                <option value="SA">SA</option>
+                                <option value="II / IF">II / IF</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="required" for="papers-received">Număr mediu lunar acte de cumparare primite</label>
+                            <input type="text" name="papersReceived" class="form-control" id="papers-received" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="required" for="no-of-employees">Număr de salariați</label>
+                            <input type="text" name="nuOfEmployees" class="form-control" id="no-of-employees" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="required" for="emailAddress">Adresă de email</label>
+                            <input type="email" name="emailAddress" class="form-control" id="emailAddress" required>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="organisation-type">Forma de organizare</label>
-                        <select title="" id="organisation-type" name="organisationType" class="form-control">
-                            <option value="SRL">SRL</option>
-                            <option value="PFA">PFA</option>
-                            <option value="ONG">ONG</option>
-                            <option value="SA">SA</option>
-                            <option value="II / IF">II / IF</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="papers-received">Număr mediu lunar acte de cumparare primite</label>
-                        <input type="text" name="papersReceived" class="form-control" id="papers-received">
-                    </div>
-                    <div class="form-group">
-                        <label for="no-of-employees">Număr de salariați</label>
-                        <input type="text" name="nuOfEmployees" class="form-control" id="no-of-employees">
-                    </div>
-                    <div class="form-group">
-                        <label for="emailAddress">Adresă de email</label>
-                        <input type="email" name="emailAddress" class="form-control" id="emailAddress">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="activity-domain">Obiect de activitate</label>
-                        <select title="" name="activityDomain[]" id="activity-domain" multiple class="form-control">
-                            <option value="Constructii">Construcții</option>
-                            <option value="Comert">Comerț</option>
-                            <option value="Servicii">Servicii</option>
-                            <option value="Productie">Producție</option>
-                            <option value="Transport">Transport</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="for-VAT">Înregistrat în scopuri de TVA</label>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="required" for="activity-domain">Obiect de activitate</label>
+                            <select title="" name="activityDomain[]" id="activity-domain" multiple class="form-control" required>
+                                <option value="Constructii">Construcții</option>
+                                <option value="Comert">Comerț</option>
+                                <option value="Servicii">Servicii</option>
+                                <option value="Productie">Producție</option>
+                                <option value="Transport">Transport</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="required" for="for-VAT">Înregistrat în scopuri de TVA</label>
 
-                        <select title="" name="vat" class="form-control" id="for-VAT">
-                            <option value="da">Da</option>
-                            <option value="nu">Nu</option>
-                            <option value="Partial - Numai pentru operațiuni UE">Parțial - Numai pentru operațiuni UE</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="papers-sent">Număr mediu lunar acte de vânzare emise</label>
-                        <input type="text" name="papersSent" class="form-control" id="papers-sent">
-                    </div>
-                    <div class="form-group">
-                        <label for="name">Nume</label>
-                        <input type="text" name="name" class="form-control" id="name">
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Telefon</label>
-                        <input type="text" name="phone" class="form-control" id="phone">
+                            <select title="" name="vat" class="form-control" id="for-VAT" required>
+                                <option value="da">Da</option>
+                                <option value="nu">Nu</option>
+                                <option value="Partial - Numai pentru operațiuni UE">Parțial - Numai pentru operațiuni UE</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="required" for="papers-sent">Număr mediu lunar acte de vânzare emise</label>
+                            <input type="text" name="papersSent" class="form-control" id="papers-sent" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="required" for="name">Nume</label>
+                            <input type="text" name="name" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="required" for="phone">Telefon</label>
+                            <input type="text" name="phone" class="form-control" id="phone" required>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="form-group">
-                        <label for="message">Mesajul dumneavoastră</label>
-                        <textarea name="message" id="message" class="form-control"></textarea>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label class="required" for="message">Mesajul dumneavoastră</label>
+                            <textarea name="mmessage" id="message" class="form-control" required></textarea>
+                        </div>
                     </div>
                 </div>
-            </div>
+
+                <input type="submit" class="btn btn-default navy btn-block" value="Trimite" />
+            </form>
         </div>
     </div>
 

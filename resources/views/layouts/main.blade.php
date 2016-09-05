@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/tabs.css">
+        <link rel="stylesheet" href="css/sweetalert.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
@@ -39,33 +40,33 @@
                             <div class="pull-right">
                                 <div class="navbar">
                                     <ul class="navigator">
-                                        <li><a class="nav-link" href="#">Acasa</a></li>
+                                        <li><a class="nav-link" href="/">Acasa</a></li>
                                         <li>
                                             <a class="nav-link services" href="#">Servicii</a>
                                             <ul class="sub-menu">
                                                 <li class="menu-item">
-                                                    <a href="#">Firmă de contabilitate</a>
+                                                    <a href="/contabilitate" class="@if(Route::current()->getName() == 'accounting') active @endif">Firmă de contabilitate</a>
                                                 </li>
                                                 <li class="menu-item">
-                                                    <a href="#">Expert contabil</a>
+                                                    <a href="/contabil_expert" class="@if(Route::current()->getName() == 'expert_accountant') active @endif">Expert contabil</a>
                                                 </li>
                                                 <li class="menu-item">
-                                                    <a href="#">Resurse umane relații de muncă</a>
+                                                    <a href="/resurse_umane_relatii_de_munca" class="@if(Route::current()->getName() == 'hr') active @endif">Resurse umane relații de muncă</a>
                                                 </li>
                                                 <li class="menu-item">
-                                                    <a href="#">Salarizare, payroll</a>
+                                                    <a href="/salarizare" class="@if(Route::current()->getName() == 'payroll') active @endif">Salarizare, payroll</a>
                                                 </li>
                                                 <li class="menu-item">
-                                                    <a href="#">Audit intern si extern</a>
+                                                    <a href="/audit" class="@if(Route::current()->getName() == 'audit') active @endif">Audit intern si extern</a>
                                                 </li>
                                                 <li class="menu-item">
-                                                    <a href="#">Inființări Registrul Comerțului</a>
+                                                    <a href="/infiintari_registrul_comertului" class="@if(Route::current()->getName() == 'startingCompany') active @endif">Inființări Registrul Comerțului</a>
                                                 </li>
                                                 <li class="menu-item">
-                                                    <a href="#">Menținui registrul comerțului</a>
+                                                    <a href="/mentiuni_registrul_comertului" class="@if(Route::current()->getName() == 'modifyCompany') active @endif">Menținui registrul comerțului</a>
                                                 </li>
                                                 <li class="menu-item">
-                                                    <a href="#">Radieri registrul comerțului</a>
+                                                    <a href="/radieri_registrul_comertului" class="@if(Route::current()->getName() == 'dismantleCompany') active @endif">Radieri registrul comerțului</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -87,6 +88,9 @@
         <script src="js/jquery-3.1.0.min.js"></script>
         <script src="js/jquery-ui.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/jquery.form.min.js"></script>
+        <script src="js/sweetalert.min.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>

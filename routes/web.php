@@ -15,3 +15,37 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/contabilitate', ['as' => 'accounting', function () {
+    return view('accounting_company');
+}]);
+
+Route::get('/contabil_expert', ['as' => 'expert_accountant', function () {
+    return view('expert_accountant');
+}]);
+
+Route::get('/resurse_umane_relatii_de_munca', ['as' => 'hr', function () {
+    return view('hr');
+}]);
+
+Route::get('/salarizare', ['as' => 'payroll', function () {
+    return view('payroll');
+}]);
+
+Route::get('/audit', ['as' => 'audit', function () {
+    return view('audit');
+}]);
+
+Route::get('/infiintari_registrul_comertului', ['as' => 'startingCompany', function () {
+    return view('startingCompany');
+}]);
+
+Route::get('/mentiuni_registrul_comertului', ['as' => 'modifyCompany', function () {
+    return view('modifyCompany');
+}]);
+
+Route::get('/radieri_registrul_comertului', ['as' => 'dismantleCompany', function () {
+    return view('dismantleCompany');
+}]);
+
+Route::post('service_request', 'UtilsController@requestService')->name('service_request');
+

@@ -15,12 +15,20 @@ $(function() {
 
     $('.tabbable > .tab-content, .tabbable > .tab-content > .tab-pane, .tabbable > .tab-content > .tab-pane > .content-box').css('min-height', $('.tabbable > .nav').outerHeight() + 50);
 
-    var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+    $('#service-request').ajaxForm({
+        type: 'post'
+        , clearForm: true
+        , resetForm: true
+        , success: function() {
+            swal("Felicitari!", "Cererea a fost trimisa. In cel mai scurt timp veti fii contactat de firma noastra", "success")
+        }
+        , beforeSubmit: function () {
+            var _this = $('#service-request');
+            _this.validate();
 
-// Resize stuff...
-    google.maps.event.addDomListener(window, "resize", function() {
-        var center = map.getCenter();
-        google.maps.event.trigger(map, "resize");
-        map.setCenter(center);
-    });
+            if (!_this.valid()) {
+                return false;
+            }
+        }
+    })
 });
