@@ -47,11 +47,11 @@
                             <label class="required" for="service-type">Serviciu solicitat</label>
                             <select title="" name="serviceType[]" id="service-type" multiple class="form-control" required>
                                 <option value="Contabilitate">Contabilitate</option>
-                                <option>Administrare personal</option>
-                                <option>Salarizare</option>
-                                <option>Audit intern si extern</option>
-                                <option>Expertiza contabila</option>
-                                <option>Altele</option>
+                                <option value="Administrare personal">Administrare personal</option>
+                                <option value="Salarizare">Salarizare</option>
+                                <option value="Audit intern si extern">Audit intern si extern</option>
+                                <option value="Expertiza contabila">Expertiza contabila</option>
+                                <option value="Altele">Altele</option>
                             </select>
                         </div>
                         <div class="form-group">
@@ -255,5 +255,11 @@
     <div class="content">
         <div class="header-title">Cum ne găsești</div>
         <iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ_UN8yOz-sUARvS7ZRB62EH4&key=AIzaSyBRuk5dULA0-4Vfs-znSFlI2F5VninLvGI" allowfullscreen></iframe>
+        <address>
+            <strong>NUMELE FIRMEI</strong><br>
+            Adresa companiei<br>
+            Adresa companiei<br>
+            <abbr title="Title">T:</abbr> Telefon firma
+        </address>
     </div>
 @endsection

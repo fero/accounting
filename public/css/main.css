@@ -18,9 +18,30 @@ body {
     font-size: 12px;
 }
 
+#header .top-header .address i, #header .top-header .phone i, #header .top-header .email i {
+    padding-right: 5px;
+}
+
+#header .top-header .email a {
+    color: #dcd8d8;
+    text-decoration: none;
+}
+
+#header .top-header .email a:hover {
+    color: #c3c1c1;
+}
+
 #header .top-header section {
     display: inline-block;
     margin: 0 10px;
+}
+
+#header .top-header .social a {
+    color: #aaaaaa;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 10px;
 }
 
 #header .main-header {
@@ -105,6 +126,53 @@ body {
     font-weight: lighter;
     font-size: 40px;
     padding: 20px 0;
+}
+
+#footer {
+
+}
+
+#footer .bottom-footer {
+    height: 35px;
+    background-color: #36444e;
+    color: #aaaaaa;
+    line-height: 35px;
+    font-size: 12px;
+}
+
+#footer .bottom-footer .content {
+    width: 1200px;
+    margin: auto;
+}
+
+#footer > .content {
+    width: 1200px;
+    margin: auto;
+}
+
+#footer .footer-services, #footer .footer-social {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .footer-services a, #footer .footer-social a {
+    color: #545454;
+    padding: 10px 0;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#footer .footer-social a {
+    font-weight: bold;
+}
+
+#footer .footer-services a:hover, #footer .footer-social a:hover {
+    color: #000000;
+}
+
+#footer .footer-social a > i {
+    padding-right: 20px;
 }
 
 .offer-form {
@@ -285,7 +353,7 @@ label.required:after {
 }
 
 p.main-paragraph {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .btn {
@@ -302,4 +370,8 @@ p.main-paragraph {
     border-color: #f1eded;
     background-color: #f1eded;
     color: #545454;
+}
+
+.borderless td, .borderless th {
+    border: none !important;
 }

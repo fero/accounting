@@ -47,5 +47,13 @@ Route::get('/radieri_registrul_comertului', ['as' => 'dismantleCompany', functio
     return view('dismantleCompany');
 }]);
 
+Route::get('/cariere', ['as' => 'careers', function () {
+    return view('careers');
+}]);
+
+Route::get('/contact', ['as' => 'contact', function () {
+    return view('contact');
+}]);
+
 Route::post('service_request', 'UtilsController@requestService')->name('service_request');
 

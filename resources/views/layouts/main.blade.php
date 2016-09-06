@@ -25,12 +25,28 @@
                 <nav>
                     <div class="top-header">
                         <div class="content">
-                            <section class="address">fdsfgdsf</section>
-                            <section class="phone">fdgffds</section>
-                            <section class="email">gfdgfd</section>
+                            <section class="address"><i class="fa fa-map-marker" aria-hidden="true"></i> Brooklyn, NY 10036, United States</section>
+                            <section class="phone"><i class="fa fa-mobile" aria-hidden="true"></i> 1-800-123-1234</section>
+                            <section class="email"><a href="mailto:mihaelamicu.stoian@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> mihaelamicu.stoian@gmail.com</a></section>
 
                             <div class="pull-right">
-                                <section class="social"></section>
+                                <section class="social">
+                                    <a target="_blank" href="https://www.facebook.com/" class="">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;
+                                    </a>
+                                    <a target="_blank" href="https://plus.google.com/" class="">
+                                        <i class="fa fa-google-plus" aria-hidden="true"></i>&nbsp;
+                                    </a>
+                                    <a target="_blank" href="https://twitter.com/" class="">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;
+                                    </a>
+                                    <a target="_blank" href="https://www.linkedin.com/" class="">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;
+                                    </a>
+                                    <a target="_blank" href="https://www.youtube.com/" class="">
+                                        <i class="fa fa-youtube" aria-hidden="true"></i>&nbsp;
+                                    </a>
+                                </section>
                             </div>
                         </div>
                     </div>
@@ -70,8 +86,8 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a class="nav-link" href="#">Cariere</a></li>
-                                        <li><a class="nav-link" href="#">Contact</a></li>
+                                        <li><a class="nav-link" href="/cariere">Cariere</a></li>
+                                        <li><a class="nav-link" href="/contact">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -82,7 +98,101 @@
             <main id="main">
                 @yield('content')
             </main>
-            <footer id="footer"></footer>
+            <footer id="footer">
+
+                <div class="content">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h3>SOCIAL</h3>
+                            <div>
+                                <ul class="footer-social">
+                                    <li>
+                                        <a target="_blank" href="https://www.facebook.com/" class="">
+                                            <i class="fa fa-facebook" aria-hidden="true"></i> Facebook
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://plus.google.com/" class="">
+                                            <i class="fa fa-google-plus" aria-hidden="true"></i>Google+
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://twitter.com/" class="">
+                                            <i class="fa fa-twitter" aria-hidden="true"></i> Twitter
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://www.linkedin.com/" class="">
+                                            <i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://www.youtube.com/" class="">
+                                            <i class="fa fa-youtube" aria-hidden="true"></i> YouTube
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <h3>Categorii</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <h3>Servicii</h3>
+                            <div>
+                                <ul class="footer-services">
+                                    <li><a href="/contabilitate" class="">Contabilitate</a></li>
+                                    <li><a href="/contabil_expert" class="">Expert contabil</a></li>
+                                    <li><a href="/resurse_umane_relatii_de_munca" class="">Relații de muncă</a></li>
+                                    <li><a href="/salarizare" class="">Payroll</a></li>
+                                    <li><a href="/salarizare" class="">Audit</a></li>
+                                    <li><a href="/infiintari_registrul_comertului" class="">Registrul Comerțului</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <h3>Program</h3>
+                            <div>
+                                <table class="table borderless">
+                                    <tr>
+                                        <td>LUNI</td>
+                                        <td>9:00 - 18:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MARTI</td>
+                                        <td>9:00 - 18:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MIERCURI</td>
+                                        <td>9:00 - 18:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>JOI</td>
+                                        <td>9:00 - 18:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>VINERI</td>
+                                        <td>9:00 - 18:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>SAMBATA</td>
+                                        <td>Închis</td>
+                                    </tr>
+                                    <tr>
+                                        <td>LUNI</td>
+                                        <td>Închis</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom-footer">
+                    <div class="content">&copy; {{ Carbon\Carbon::today()->format('Y') }} | TOATE DREPTURILE REZERVATE</div>
+                </div>
+
+            </footer>
         </div>
 
         <script src="js/jquery-3.1.0.min.js"></script>
