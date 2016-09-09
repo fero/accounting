@@ -6,7 +6,6 @@
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#main-carousel" data-slide-to="1"></li>
                 <li data-target="#main-carousel" data-slide-to="2"></li>
             </ol>
 
@@ -14,10 +13,6 @@
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     <img src="img/images/bg-1.jpg" alt="...">
-                    <div class="carousel-caption"></div>
-                </div>
-                <div class="item">
-                    <img src="img/images/bg-2-3.jpg" alt="...">
                     <div class="carousel-caption"></div>
                 </div>
                 <div class="item">

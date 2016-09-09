@@ -33,7 +33,7 @@
 
         <h4>CONSTITUIE AVANTAJ:</h4>
         Experiența anterioară într-o firmă afiliată CECCAR;<br />
-        Cunostințe de utilizare a programului de contabilitate SAGA C.<br />
+        Cunostințe de utilizare a programului de contabilitate WinMENTOR.<br />
 
         <h4>RESPONSABILITATI:</h4>
         Noul nostru coleg va fi responsabil cu operarea documentelor de contabilitate primară și arhivarea lor, închiderea balanței lunare, raportarea către clienți și întocmirea de documente solicitate de către aceștia.<br />
@@ -41,7 +41,6 @@
 
         <h4>BENEFICII:</h4>
         Salariu: se va negocia în urma interviului;<br />
-        Bonuri de masă.<br />
 
         <h4>DESCRIEREA COMPANIEI:</h4>
         Grupul nostru de societăți este unul dintre cele mai bune locuri în care se poate demara o afacere: oferim consiliere, înființăm firme, ținem contabilitatea și administrăm personalul.<br />

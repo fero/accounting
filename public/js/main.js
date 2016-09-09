@@ -2,7 +2,7 @@ $(function() {
     "use strict";
 
     $('#main-carousel').carousel({
-        interval: 150000
+        interval: 3500
     });
 
     $('.navigator > li > .nav-link.services, .navigator > li > ul.sub-menu')

@@ -50,14 +50,7 @@
                             <option value="II / IF">II / IF</option>
                         </select>
                     </div>
-                    <div class="form-group">
-                        <label class="required" for="papers-received">Număr mediu lunar acte de cumparare primite</label>
-                        <input type="text" name="papersReceived" class="form-control" id="papers-received" required>
-                    </div>
-                    <div class="form-group">
-                        <label class="required" for="no-of-employees">Număr de salariați</label>
-                        <input type="text" name="nuOfEmployees" class="form-control" id="no-of-employees" required>
-                    </div>
+
                     <div class="form-group">
                         <label class="required" for="emailAddress">Adresă de email</label>
                         <input type="email" name="emailAddress" class="form-control" id="emailAddress" required>
@@ -82,10 +75,6 @@
                             <option value="nu">Nu</option>
                             <option value="Partial - Numai pentru operațiuni UE">Parțial - Numai pentru operațiuni UE</option>
                         </select>
-                    </div>
-                    <div class="form-group">
-                        <label class="required" for="papers-sent">Număr mediu lunar acte de vânzare emise</label>
-                        <input type="text" name="papersSent" class="form-control" id="papers-sent" required>
                     </div>
                     <div class="form-group">
                         <label class="required" for="name">Nume</label>

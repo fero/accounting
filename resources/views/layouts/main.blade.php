@@ -156,23 +156,23 @@
                                 <table class="table borderless">
                                     <tr>
                                         <td>LUNI</td>
-                                        <td>9:00 - 18:00</td>
+                                        <td>9:00 - 17:00</td>
                                     </tr>
                                     <tr>
                                         <td>MARTI</td>
-                                        <td>9:00 - 18:00</td>
+                                        <td>9:00 - 17:00</td>
                                     </tr>
                                     <tr>
                                         <td>MIERCURI</td>
-                                        <td>9:00 - 18:00</td>
+                                        <td>9:00 - 17:00</td>
                                     </tr>
                                     <tr>
                                         <td>JOI</td>
-                                        <td>9:00 - 18:00</td>
+                                        <td>9:00 - 17:00</td>
                                     </tr>
                                     <tr>
                                         <td>VINERI</td>
-                                        <td>9:00 - 18:00</td>
+                                        <td>9:00 - 17:00</td>
                                     </tr>
                                     <tr>
                                         <td>SAMBATA</td>
