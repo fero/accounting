@@ -22,7 +22,7 @@
         <h2>Salarizare, payroll</h2>
         <p>Calculăm salarii, întocmim state de salarii și transmitem declarația unică D112 pentru societăți comerciale, persoane fizice autorizate, organizații non-guvernamentale, întreprinderi individuale și întreprinderi familiale care au sediul social în București, orice sector, și în județul Ilfov.</p>
 
-        <p>Suntem situați în sectorul 3, pe Bulevardul Unirii la numărul 64, într-o locație aproape de centru și foarte accesibilă. Serviciile de payroll sunt adresate tuturor entităților din domenii de activitate foarte variate, producție, transport, construcții, servicii și comerț.</p>
+        <p>SSuntem localizați în sectorul 3, pe Bulevardul Rm. Sarat la numărul 14, la o adresă ușor accesibilă. Serviciile de payroll sunt adresate tuturor entităților din domenii de activitate foarte variate, producție, transport, construcții, servicii și comerț.</p>
 
         <p>Ca și politică de preț, suntem un prestator de servicii de salarizare și payroll care își construiește tarifele în funcție de numărul de angajați, numărul de funcții existente în statul de salarii, complexitatea lucrărilor (existența diurnelor, bonurilor de masă, fluctuație de personal etc) și ușurința de colaborare cu clientul.</p>
 
@@ -31,7 +31,7 @@
 
     <div class="content">
         <div class="header-title">Cerere ofertă de preț servicii salarizare și payroll</div>
-        <form id="service-request" action="{{ route('service_request') }}">
+        <form id="service-request" action="{{ route('service_request_payroll') }}">
             <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
             <div class="row">
                 <div class="col-md-6">
@@ -57,7 +57,7 @@
                     </div>
                     <div class="form-group">
                         <label for="extra-income">Sporuri la salariu</label>
-                        <input type="text" name="papersSent" class="form-control" id="extra-income">
+                        <input type="text" name="extraIncome" class="form-control" id="extra-income">
                     </div>
                     <div class="form-group">
                         <label class="required" for="no-of-positions">Număr funcții</label>
@@ -79,7 +79,7 @@
                     <div class="form-group">
                         <label class="required" for="meal-tickets">Bonuri de masa</label>
 
-                        <select title="" name="vat" class="form-control" id="meal-tickets" required>
+                        <select title="" name="mealTickets" class="form-control" id="meal-tickets" required>
                             <option value="da">Da</option>
                             <option value="nu">Nu</option>
                         </select>

@@ -27,14 +27,14 @@
 
         <p>Clienții beneficiază de consultanță cu privire la cea mai rapidă și mai economică variantă de implementare a modificărilor, evită deplasările și drumurile inutile și cozile de la birourile Oficiului Național al Registrului Comerțului.</p>
 
-        <p>Suntem localizați în centrul Bucureștiului, în sectorul 3 pe Bulevardul Unirii la numărul 64, la o adresă ușor accesibilă la orice oră din zi. Lucrările pentru clienții noștri se pot realiza însă și fără vizită la sediu, folosindu-ne de tehnologiile moderne de comunicare, curier și semnătură electronică.</p>
+        <p>Suntem localizați în sectorul 3, pe Bulevardul Rm. Sarat la numărul 14, la o adresă ușor accesibilă la orice oră din zi. Lucrările pentru clienții noștri se pot realiza însă și fără vizită la sediu, folosindu-ne de tehnologiile moderne de comunicare, curier și semnătură electronică.</p>
 
         <p>Pentru o cotație de preț, vă rugăm folosiți formularul de mai jos și veți primi un răspuns în maxim 24 de ore.</p>
     </div>
 
     <div class="content">
         <div class="header-title">Cerere ofertă de preț servicii modificare firmă (mențiune) la Registrul Comerțului</div>
-        <form id="service-request" action="{{ route('service_request') }}">
+        <form id="service-request" action="{{ route('service_request_company') }}">
             <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
             <div class="row">
                 <div class="col-md-6">

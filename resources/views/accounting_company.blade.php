@@ -22,7 +22,8 @@
         <h2>Firmă de contabilitate</h2>
         <p>Firma noastră de contabilitate oferă servicii de contabilitate pentru societăți comerciale, persoane fizice autorizate, organizații non-guvernamentale, întreprinderi individuale și întreprinderi familiale ce au cu precădere sediul în orice sector din București și în județul Ilfov.</p>
 
-        <p>Ne găsiți în sectorul 3, pe Bulevardul Unirii la numărul 64, într-o locație centrală și accesibilă.</p>
+        <p>Compania noastra dispune de logistica performanta necasara efectuarii in timp util si la un inalt standard de calitate, in deplina confidentialitate, a serviciilor enumerate in prezenta oferta.</p>
+        <p>Activitatea firmei este sustinuta de un soft de contabilitate si gestiune (Win Mentor), un program complex, avand module integrate de contabilitate, gestiune, salarii, imobilizari.</p>
 
         <p>SRL, PFA, II, IF, ONG care ne sunt clienți la contabilitate activează în domenii de activitate foarte variate, producție, transport, construcții, servicii și comerț.</p>
         <p>Ca și politică de preț, suntem o firmă de contabilitate care își construiește tarifele în funcție de volumul lucrărilor, complexitatea lucrărilor și modul de colaborare cu clienții.</p>

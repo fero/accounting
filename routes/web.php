@@ -56,4 +56,8 @@ Route::get('/contact', ['as' => 'contact', function () {
 }]);
 
 Route::post('service_request', 'UtilsController@requestService')->name('service_request');
+Route::post('service_request_payroll', 'UtilsController@requestPayrollService')->name('service_request_payroll');
+Route::post('service_request_audit', 'UtilsController@requestAuditService')->name('service_request_audit');
+Route::post('service_request_company', 'UtilsController@requestCompanyService')->name('service_request_company');
+Route::post('contact_form', 'UtilsController@contact')->name('contact_form');
 

@@ -25,8 +25,8 @@
                 <nav>
                     <div class="top-header">
                         <div class="content">
-                            <section class="address"><i class="fa fa-map-marker" aria-hidden="true"></i> Brooklyn, NY 10036, United States</section>
-                            <section class="phone"><i class="fa fa-mobile" aria-hidden="true"></i> 1-800-123-1234</section>
+                            <section class="address"><i class="fa fa-map-marker" aria-hidden="true"></i> Bd. Ramnicu Sarat, nr 14, Bucuresti, Sector 3</section>
+                            <section class="phone"><i class="fa fa-mobile" aria-hidden="true"></i> +40 (799) 955 260</section>
                             <section class="email"><a href="mailto:mihaelamicu.stoian@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> mihaelamicu.stoian@gmail.com</a></section>
 
                             <div class="pull-right">
@@ -102,7 +102,7 @@
 
                 <div class="content">
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <h3>SOCIAL</h3>
                             <div>
                                 <ul class="footer-social">
@@ -134,10 +134,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <h3>Categorii</h3>
-                        </div>
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <h3>Servicii</h3>
                             <div>
                                 <ul class="footer-services">
@@ -150,7 +147,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <h3>Program</h3>
                             <div>
                                 <table class="table borderless">
@@ -189,7 +186,7 @@
                 </div>
 
                 <div class="bottom-footer">
-                    <div class="content">&copy; {{ Carbon\Carbon::today()->format('Y') }} | TOATE DREPTURILE REZERVATE</div>
+                    <div class="content">TOPEXPERRT CONSULTING &copy; {{ Carbon\Carbon::today()->format('Y') }} | TOATE DREPTURILE REZERVATE</div>
                 </div>
 
             </footer>

@@ -25,7 +25,7 @@
 
     <div class="content">
         <div class="header-title">Cerere ofertă de preț servicii audit intern si extern</div>
-        <form id="service-request" action="{{ route('service_request') }}">
+        <form id="service-request" action="{{ route('service_request_audit') }}">
             <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
             <div class="row">
                 <div class="col-md-6">

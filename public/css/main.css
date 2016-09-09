@@ -50,9 +50,9 @@ body {
 }
 
 #header .main-header .logo {
-    background-image: url("../img/logo.png");
-    width: 158px;
-    height: 30px;
+    background: url("../img/logo.png") no-repeat;
+    width: 406px;
+    height: 37px;
     margin: 34px 0;
     float: left;
 }
@@ -110,6 +110,7 @@ body {
 #main .content {
     width: 1200px;
     margin: auto;
+    display: table;
 }
 
 #main > .content {

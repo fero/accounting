@@ -249,12 +249,13 @@
 
     <div class="content">
         <div class="header-title">Cum ne găsești</div>
-        <iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ_UN8yOz-sUARvS7ZRB62EH4&key=AIzaSyBRuk5dULA0-4Vfs-znSFlI2F5VninLvGI" allowfullscreen></iframe>
+        <iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJA5fJx-z-sUARTeH-WB0Xeu8&key=AIzaSyBRuk5dULA0-4Vfs-znSFlI2F5VninLvGI" allowfullscreen></iframe>
         <address>
-            <strong>NUMELE FIRMEI</strong><br>
-            Adresa companiei<br>
-            Adresa companiei<br>
-            <abbr title="Title">T:</abbr> Telefon firma
+            <strong>TopExpert Consulting</strong><br>
+            Bd. Ramnicu Sarat, nr 14<br>
+            Bucuresti, Sector 3<br>
+            <abbr title="Phone">T:</abbr> +40 (799) 955 260<br />
+            <abbr title="Phone">T:</abbr> +40 (724) 173 427
         </address>
     </div>
 @endsection

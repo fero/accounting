@@ -22,7 +22,7 @@
         <h2>Resurse umane relații de muncă</h2>
         <p>Ne ocupăm de relațiile de muncă existente în societăți comerciale, persoane fizice autorizate, organizații non-guvernamentale, întreprinderi individuale și întreprinderi familiale ce au cu precădere sediul în orice sector din București și în județul Ilfov.</p>
 
-        <p>Suntem localizați în sectorul 3, pe Bulevardul Unirii la numărul 64, la o adresă centrală și accesibilă. Administrăm personalul și întocmim documentația specifică pentru relații de muncă în domenii de activitate foarte variate, producție, transport, construcții, servicii și comerț.</p>
+        <p>Suntem localizați în sectorul 3, pe Bulevardul Rm. Sarat la numărul 14, la o adresă ușor accesibilă. Administrăm personalul și întocmim documentația specifică pentru relații de muncă în domenii de activitate foarte variate, producție, transport, construcții, servicii și comerț.</p>
 
         <p>Ca și politică de preț, suntem o societate de administrare de personal care își construiește tarifele în funcție de numărul de angajați, numărul de funcții existente în statul de salarii, complexitatea lucrărilor (existența diurnelor, bonurilor de masă, conflicte de muncă etc) și ușurința de colaborare cu clientul.</p>
 
