@@ -3,7 +3,16 @@
 @section('content')
     <div class="content">
         <div class="row">
-            <div class="col-md-6"><iframe height="350" frameborder="0" style="border:0; width: 100%;" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJA5fJx-z-sUARTeH-WB0Xeu8&key=AIzaSyBRuk5dULA0-4Vfs-znSFlI2F5VninLvGI" allowfullscreen></iframe></div>
+            <div class="col-md-6">
+                <iframe height="350" frameborder="0" style="border:0; width: 100%;" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJA5fJx-z-sUARTeH-WB0Xeu8&key=AIzaSyBRuk5dULA0-4Vfs-znSFlI2F5VninLvGI" allowfullscreen></iframe>
+                <address>
+                    <strong>TopExpert Consulting</strong><br>
+                    Bd. Ramnicu Sarat, nr 14<br>
+                    Bucuresti, Sector 3<br>
+                    <abbr title="Phone">T:</abbr> +40 (799) 955 260<br />
+                    <abbr title="Phone">T:</abbr> +40 (724) 173 427
+                </address>
+            </div>
             <div class="col-md-6">
                 <form id="service-request" action="{{ route('contact_form') }}">
                     <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />

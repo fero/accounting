@@ -20,7 +20,7 @@ $(function() {
         , clearForm: true
         , resetForm: true
         , success: function() {
-            swal("Felicitari!", "Cererea a fost trimisa. In cel mai scurt timp veti fii contactat de un reprezentant al firmei noastra", "success")
+            swal("Felicitari!", "Cererea a fost trimisa. In cel mai scurt timp veti fii contactat de un reprezentant al companiei noastre", "success")
         }
         , beforeSubmit: function () {
             var _this = $('#service-request');

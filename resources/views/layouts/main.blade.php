@@ -186,7 +186,7 @@
                 </div>
 
                 <div class="bottom-footer">
-                    <div class="content">TOPEXPERRT CONSULTING &copy; {{ Carbon\Carbon::today()->format('Y') }} | TOATE DREPTURILE REZERVATE</div>
+                    <div class="content">TOP EXPERRT CONSULTING &copy; {{ Carbon\Carbon::today()->format('Y') }} | TOATE DREPTURILE REZERVATE</div>
                 </div>
 
             </footer>
